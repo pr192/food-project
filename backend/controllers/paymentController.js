@@ -25,7 +25,7 @@ exports.processPayment = catchAsyncErrors(async (req, res, next) => {
     })),
     mode: "payment",
     shipping_address_collection: {
-      allowed_countries: ["US", "IN"],
+      allowed_countries: ["IN"],
     },
     shipping_options: [
       {
